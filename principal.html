@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/js/principal.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+    <body>
+        <div id="mostrarHora" class="mostrarHora">
+            <div class="titulo">
+                <h3><script type="text/javascript">mostrarHora();</script></h3>
+            </div>
+            <button id="pButton" class="pButton" onclick="logOut()">LogOut</button>
+        </div>
+
+        <di class="contenedor">
+            <div class="busqueda">
+                <input id="input_busqueda" type="number" min="1"
+                    max="99" class="form-control"
+                    placeholder="Ingrese el id del personaje">
+                <button id="buscar" type="button" class="primary-buttom">Buscar</button>
+                <button id="limpiar" type="button" class="second-button">Limpiar</button>
+            </div>
+        </di>
+
+
+        <table class="container">
+            <thead>
+                <tr>
+                    <th>
+                        <h1> id</h1>
+                    </th>
+                    <th>
+                        <h1>name</h1>
+                    </th>
+                    <th>
+                        <h1>status</h1>
+                    </th>
+                    <th>
+                        <h1>species</h1>
+                    </th>
+                    <th>
+                        <h1>type</h1>
+                    </th>
+                    <th>
+                        <h1>gender</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="res">
+
+            </tbody>
+
+        </table>
+        <div class="foto"id="foto">
+            <div class="contenido"></div>
+            <img src=""
+                alt="">
+            <p></p>
+        </div>
+        </div>
+
+
+    </body>
+</html>
